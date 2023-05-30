@@ -4,9 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web-May 29th 2023</title>
+    <title>My Web With RevoU</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            text-align: center;
+            width: 30%;            
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World 123</h1>
+    <h1>Unordered List Test</h1>
+    <p><b>Dibawah ini adalah uji coba unordered list</b></p>
+    <ul type="circle">
+        <li>Belajar Ya</li>
+        <li>Semangat</li>
+        <li>Demi Masa Depan</li>
+        <li>Harus Semangat Yaa!!!</li>
+    </ul>
+    <br>
+    <h1>Ordered List Test</h1>
+    <p><b>Dibawah ini adalah uji coba ordered list</b></p>
+    <ol>
+        <li>Belajar Ya</li>
+        <li>Semangat</li>
+        <li>Demi Masa Depan</li>
+        <li>Harus Semangat Yaa!!!</li>
+    </ol>
+    <br>
+    <table>
+        <thead>
+            <th>Nama</th>
+            <th>Usia</th>
+            <th>Jenis Kelamin</th>
+        </thead>
+        <tr>
+            <td>Asep</td>
+            <td>21</td>
+            <td>Laki-laki</td>
+        </tr>
+        <tr>
+            <td>Rukiman</td>
+            <td>50</td>
+            <td>Laki-laki</td>
+        </tr>
+        <tr>
+            <td>Markonah</td>
+            <td>48</td>
+            <td>Perempuan</td>
+        </tr>
+        <tr>
+            <td>Ngatiyem</td>
+            <td>56</td>
+            <td>Perempuan</td>
+        </tr>
+        <tr>
+            <td>Udin</td>
+            <td>20</td>
+            <td>Laki-laki</td>
+        </tr>
+    </table>
+    <br>
+    <img src="https://yt3.ggpht.com/ytc/AGIKgqObqasnQxHdTTO6SW3KmInFmLXAutH2QxiVaZi4=s48-c-k-c0x00ffffff-no-rj" alt="Contoh Gambar" width="" height="">
+    <br>
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    <br>
+    <form action="" method="post">
+    <fieldset>
+        <legend>Form Test</legend>
+        <label for="nama">Nama : </label>
+        <input type="text" id="nama">
+        <br>
+        <label for="pw">Password : </label>
+        <input type="password" id="pw" required>
+        <br>
+        <label for="jk">Jenis Kelamin : </label>
+        <input type="radio" id="l" name="jk" value="laki-laki"><label>Laki-laki</label>
+        <input type="radio" id="p" name="jk" value="perempuan"><label>Perempuan</label>
+        <br>
+        <label for="hobi">Hobi : </label>
+        <input type="checkbox" name="hobi" id="hobi1" value="mancing"><label>Mancing</label>
+        <input type="checkbox" name="hobi" id="hobi2" value="maling"><label>Maling</label>
+        <input type="checkbox" name="hobi" id="hobi3" value="bersepeda"><label>Bersepeda</label>
+        <input type="checkbox" name="hobi" id="hobi4" value="main_game"><label>Main Game</label>
+        <input type="checkbox" name="hobi" id="hobi5" value="wibu"><label>Wibu</label>
+        <br>
+        <label for="usia">Usia : </label>
+        <input type="number" id="usia" min="1" max="100">
+        <br>
+        <label for="ket">Ket : </label><br>
+        <textarea name="ket" id="ket" cols="30" rows="10" placeholder="Write Something Here"></textarea>
+        <br>
+        <p>Apa Warna Favoritmu ?</p>
+        <select>
+            <option value="pilih_warna" selected>pilih warna</option>
+            <option value="merah">merah</option>
+            <option value="kuning">kuning</option>
+            <option value="hijau">hijau</option>
+            <option value="biru">biru</option>
+        </select>
+        <br>
+        <input type="submit" value="ok">
+    </fieldset>
+    </form>
 </body>
 </html>
